@@ -1,0 +1,321 @@
+﻿body {
+}
+
+.header {
+    width: 1340px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+      font-family: Forte;
+    font-size: 35px;
+    color: red;
+    font-style: italic;
+    margin-left: 15px;
+    width:326px;
+}
+
+.createAccount {
+    width: 135px;
+    height: 30px;
+    /* border-color: lightgreen; */
+    background-color: lightgreen;
+    color: white;
+    border: none;
+}
+
+.signIn {
+    width: 59px;
+    height: 30px;
+    color: gray;
+    /* border-color: gray; */
+    border: none;
+}
+
+.signInPanel {
+     margin-left: 723px;
+    width: 300px;
+}
+.footer{
+    background-color:#EB7600;
+    width:1340px;
+    display:flex;
+    flex-direction:column;
+}
+
+.footerelement{
+    margin-left:12px;
+    margin-top:10px;   
+    margin-left:18px; 
+}
+.upperbody {
+  
+  width:1340px;
+  height:400px;
+      background: url(images/20.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.mysearch{
+      padding-left: 365px;
+    padding-top: 183px;
+}
+.searchText{
+        width: 500px;
+    height: 35px;
+     font-size:17px;
+     border-style: none;
+}
+.searchBox{
+         height: 40px;
+    width: 90px;
+    font-size: 18px;
+    font-family: arial;
+    background-color: #EB7600;
+    border-color: #EB7600;
+    color: white;   
+   
+}
+.caption{
+    font-size:15px;
+    font-family:Arial;
+    color:limegreen;
+        width: 170px;
+    margin-top: 16px;
+}
+.menuItem{
+       width: 300px;
+    height: 300px;
+    margin-left: 105px;
+    margin-top: 60px;
+}
+.lowerbody{
+        background-color: lemonchiffon;
+}
+.item1{
+    font-size:30px;
+    font-family:Arial;
+    margin-left:185px;
+}
+.item2{
+    font-size:30px;
+    font-family:Arial;
+    margin-left:282px;
+}
+.item3{
+    font-size:30px;
+    font-family:Arial;
+    margin-left:302px;
+}
+.menuitem1{
+     width: 300px;
+    height: 300px;
+    margin-left: 300px;
+    margin-top: 60px;
+}
+.menuitem2{
+     width: 300px;
+    height: 300px;
+    margin-left: 115px;
+    margin-top: 60px;
+}
+#Menu1{
+        float: left;
+    margin-left: 12px;
+    font-size: 20px;
+}
+.menu{
+        text-decoration:none;
+        margin-left:18px;
+}
+.imagelogo{
+    width:50px;
+    height:37px;
+        background: url(images/20.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.breakfastItem{
+     width:300px;
+    height:300px;
+        background: url(images/b&b.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+      margin-left: 100px;
+    margin-top: 50px;
+}
+.maindishItem {
+    width: 300px;
+    height: 300px;
+    background: url('Images/main dish.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.saladItem{
+     width:300px;
+    height:300px;
+        background: url(images/salad.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+      margin-left: 100px;
+    margin-top: 50px;
+}
+.dessertItem{
+     width:300px;
+    height:300px;
+        background: url(images/desserts.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-left: 300px;
+    margin-top: 50px;
+}
+.snackItem{
+     width:300px;
+    height:300px;
+        background: url(images/snacks.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+      margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.textname{
+    width:250px;
+    height: 40px;
+    padding-top: 240px;
+    padding-left:10px;
+    font-size:35px;
+}
+.displaymenu{
+    display:flex;
+    flex-direction:row;
+}
+.recipeName{
+  font-size: 50px;
+    color: limegreen;
+    margin-left: 270px;
+}
+.baselImage{
+        width: 450px;
+    height: 400px;
+    margin-left: 330px;
+}
+.menuheader{
+    display: flex;
+    margin-top: 25px;
+    margin-left:100px;
+}
+.ingredientlabel{
+    margin-left: 50px;
+    font-size: 25px;
+    color:green;
+}
+.steps{
+        margin-left: 125px;
+        font-size: 35px;
+}
+.preplabel{
+    font-size: 25px;
+    color:green;
+    margin-left:125px
+}
+.bodybreakfast{
+    background-color: lemonchiffon;
+    width:1340px;
+}
+.prepsteps{
+    width:1180px;
+}
+.breakfastitem1 {
+    width: 300px;
+    height: 300px;
+    background: url('Images/BASIL PESTO.JPG') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.breakfastitem2 {
+    width: 300px;
+    height: 300px;
+    background: url('Images/DSCN0821.JPG') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.breakfastitem3 {
+    width: 300px;
+    height: 300px;
+    background: url('Images/pasta.JPG') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.breakfastitem4 {
+    width: 300px;
+    height: 300px;
+    background: url('Images/DSCN1618.JPG') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ margin-left: 300px;
+    margin-top: 50px;
+}
+
+.breakfastitem5 {
+    width: 300px;
+    height: 300px;
+    background: url('Images/s.JPG') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.table{
+        margin-left: 100px;
+    font-size: 20px;
+}
+.button1{
+        background-color: limegreen;
+    border-color: limegreen;
+    width: 186px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+.tdclass{
+    width:150px;
+    margin-left:30px;
+}
